@@ -73,7 +73,7 @@ apt-get install -yqq --no-install-recommends libvulkan-dev vulkan-tools
 If you run into issues on setting up Simpler environment, please refer to [SimplerEnv](https://github.com/simpler-env/SimplerEnv).
 
 ## Checkpoint
-We provide a pre-trained checkpoint [here](https://drive.google.com/drive/folders/1foztWQeKX7xH-Tc89Lu7JNlhE_eOE-aG?usp=sharing). This checkpoint is trained with batch size of 256 for 500k steps on bridge and fractal datasets.
+We provide a pre-trained checkpoint [here](https://drive.google.com/drive/folders/1XWLq2zMCCOW5saNW0u84W2J9IjIiv2DX?usp=sharing). This checkpoint is trained with batch size of 256 for 500k steps on bridge and fractal datasets.
 
 ## Credits
 The offline RL training code is built upon [bridge_data_v2](https://github.com/rail-berkeley/bridge_data_v2) and Dibya Ghosh's [jaxrl_m](https://github.com/dibyaghosh/jaxrl_m) repositories. We also thank Paul Zhou for his initial implementation of Cal-QL in this repository.
