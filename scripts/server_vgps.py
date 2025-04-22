@@ -1,4 +1,4 @@
-# python scripts/server_vgps.py --checkpoint="/root/V-GPS/v-gps" --port=3100
+# python scripts/server_vgps.py --checkpoint="/root/V-GPS/v-gps" --port=3800
 
 from fastapi import FastAPI, HTTPException, Request
 from fastapi.middleware.cors import CORSMiddleware

@@ -2,7 +2,7 @@ import requests
 import numpy as np
 import json_numpy as json
 import pickle
-url = "http://127.0.0.1:3100/process"
+url = "http://127.0.0.1:3800/process"
 instruction = "move the yellow knife to the right of the pan"
 image_path = "scripts/79000.jpg"
 action = np.array([
